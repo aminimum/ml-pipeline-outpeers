@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/ml-pipeline-outpeers/mlruns/733956247623133968/575f36844896447eab1ff50d4b7fac92/artifacts
+end_time: 1738755967829
+entry_point_name: ''
+experiment_id: '733956247623133968'
+lifecycle_stage: active
+run_id: 575f36844896447eab1ff50d4b7fac92
+run_name: bald-rook-940
+run_uuid: 575f36844896447eab1ff50d4b7fac92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738755967560
+status: 3
+tags: []
+user_id: amin

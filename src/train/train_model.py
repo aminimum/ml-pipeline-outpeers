@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, precision_score, roc_curve, auc
 import matplotlib.pyplot as plt
 
 
-mlflow.autolog()
+# mlflow.autolog()
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=str, default="params.yaml")
@@ -42,7 +42,7 @@ def train_model(config):
         auc_score = auc(fpr, tpr)
 
         # Log AUC score
-        mlflow.log_metric("AUC", auc_score)
+        #mlflow.log_metric("AUC", auc_score)
 
         # Plot ROC Curve
         plt.figure(figsize=(8, 6))

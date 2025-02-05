@@ -1,6 +1,6 @@
-artifact_location: file:///Users/amin/ml_project_archive/2/mlruns/0
-creation_time: 1738745184830
+artifact_location: file:///Users/amin/ml_project_archive/ml-pipeline-outpeers/mlruns/0
+creation_time: 1738755944083
 experiment_id: '0'
-last_update_time: 1738745184830
+last_update_time: 1738755944083
 lifecycle_stage: active
 name: Default
