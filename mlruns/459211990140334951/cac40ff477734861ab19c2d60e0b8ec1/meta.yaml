@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/cac40ff477734861ab19c2d60e0b8ec1/artifacts
+end_time: 1738747130964
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: cac40ff477734861ab19c2d60e0b8ec1
+run_name: polite-conch-819
+run_uuid: cac40ff477734861ab19c2d60e0b8ec1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738747127806
+status: 3
+tags: []
+user_id: amin

@@ -1,0 +1,12 @@
+digest: a8167a55
+name: dataset
+profile: '{"num_rows": 179, "num_elements": 1432}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Pclass", "required": true},
+  {"type": "double", "name": "Age", "required": true}, {"type": "long", "name": "SibSp",
+  "required": true}, {"type": "long", "name": "Parch", "required": true}, {"type":
+  "double", "name": "Fare", "required": true}, {"type": "boolean", "name": "Sex_male",
+  "required": true}, {"type": "boolean", "name": "Embarked_Q", "required": true},
+  {"type": "boolean", "name": "Embarked_S", "required": true}]}'
+source: '{"tags": {"mlflow.user": "amin", "mlflow.source.name": "src/train/train_model.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

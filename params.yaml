@@ -1,0 +1,19 @@
+data:
+  minio_endpoint: "http://localhost:9000"
+  bucket: "my-bucket"
+  object_key: "train.csv"
+  local_path: "data/raw/train.csv"
+
+preprocess:
+  missing_values_strategy: "mean"
+  drop_columns: ["PassengerId", "Name", "Ticket", "Cabin"]
+
+train:
+  test_size: 0.2
+  random_state: 43
+  model_params:
+    n_estimators: 100
+    max_depth: 5
+
+mlflow:
+  experiment_name: "Titanic_Classification"

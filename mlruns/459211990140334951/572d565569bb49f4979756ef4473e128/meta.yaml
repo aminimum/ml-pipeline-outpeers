@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/572d565569bb49f4979756ef4473e128/artifacts
+end_time: 1738745444808
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: 572d565569bb49f4979756ef4473e128
+run_name: rare-tern-875
+run_uuid: 572d565569bb49f4979756ef4473e128
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738745444714
+status: 3
+tags: []
+user_id: amin

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/9e1837b2182c47818532cfe4c33b49c8/artifacts
+end_time: 1738745311631
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: 9e1837b2182c47818532cfe4c33b49c8
+run_name: capricious-skink-274
+run_uuid: 9e1837b2182c47818532cfe4c33b49c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738745309442
+status: 3
+tags: []
+user_id: amin

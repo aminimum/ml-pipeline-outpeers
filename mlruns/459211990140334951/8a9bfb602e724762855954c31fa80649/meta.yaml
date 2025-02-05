@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/8a9bfb602e724762855954c31fa80649/artifacts
+end_time: 1738745592325
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: 8a9bfb602e724762855954c31fa80649
+run_name: stylish-finch-466
+run_uuid: 8a9bfb602e724762855954c31fa80649
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738745592246
+status: 4
+tags: []
+user_id: amin

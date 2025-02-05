@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/5714baece3e6477086f82707b4c54307/artifacts
+end_time: 1738745344006
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: 5714baece3e6477086f82707b4c54307
+run_name: able-stag-87
+run_uuid: 5714baece3e6477086f82707b4c54307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738745343913
+status: 3
+tags: []
+user_id: amin

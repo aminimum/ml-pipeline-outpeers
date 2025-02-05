@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/5310fe98c672410fa14c345f58f3288d/artifacts
+end_time: 1738745964048
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: 5310fe98c672410fa14c345f58f3288d
+run_name: fun-ray-490
+run_uuid: 5310fe98c672410fa14c345f58f3288d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738745962431
+status: 3
+tags: []
+user_id: amin

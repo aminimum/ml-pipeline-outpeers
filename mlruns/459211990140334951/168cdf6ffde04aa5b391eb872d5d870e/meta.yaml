@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/168cdf6ffde04aa5b391eb872d5d870e/artifacts
+end_time: 1738746027585
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: 168cdf6ffde04aa5b391eb872d5d870e
+run_name: charming-crab-971
+run_uuid: 168cdf6ffde04aa5b391eb872d5d870e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738746024841
+status: 3
+tags: []
+user_id: amin

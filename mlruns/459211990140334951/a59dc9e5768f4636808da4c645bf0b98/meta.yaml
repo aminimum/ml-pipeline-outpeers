@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amin/ml_project_archive/2/mlruns/459211990140334951/a59dc9e5768f4636808da4c645bf0b98/artifacts
+end_time: 1738745602935
+entry_point_name: ''
+experiment_id: '459211990140334951'
+lifecycle_stage: active
+run_id: a59dc9e5768f4636808da4c645bf0b98
+run_name: funny-ant-268
+run_uuid: a59dc9e5768f4636808da4c645bf0b98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738745602834
+status: 3
+tags: []
+user_id: amin

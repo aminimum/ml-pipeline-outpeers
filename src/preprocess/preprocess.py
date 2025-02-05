@@ -1,0 +1,30 @@
+import argparse
+import yaml
+import pandas as pd
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=str, default="params.yaml")
+    return parser.parse_args()
+
+def preprocess_data(config):
+    raw_path = config['data']['local_path']
+    processed_path = "data/processed/processed.csv"
+    df = pd.read_csv(raw_path)
+    
+    drop_cols = config['preprocess'].get('drop_columns', [])
+    df.drop(columns=drop_cols, inplace=True, errors='ignore')
+    
+    df.fillna(df.mean(numeric_only=True), inplace=True)
+    df = pd.get_dummies(df, columns=['Sex', 'Embarked'], drop_first=True)
+    df.to_csv(processed_path, index=False)
+    print(f"Preprocessed data saved to {processed_path}")
+
+def main():
+    args = parse_args()
+    with open(args.config) as f:
+        config = yaml.safe_load(f)
+    preprocess_data(config)
+
+if __name__ == "__main__":
+    main()

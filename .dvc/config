@@ -1,0 +1,3 @@
+['remote "myremote"']
+    url = s3://my-bucket
+    endpointurl = http://localhost:9000
