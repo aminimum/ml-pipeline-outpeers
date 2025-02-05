@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, precision_score, roc_curve, auc
 import matplotlib.pyplot as plt
 
 
-# mlflow.autolog()
+mlflow.autolog()
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=str, default="params.yaml")
