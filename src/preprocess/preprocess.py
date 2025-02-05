@@ -1,6 +1,7 @@
 import argparse
 import yaml
 import pandas as pd
+import os 
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -10,6 +11,7 @@ def parse_args():
 def preprocess_data(config):
     raw_path = config['data']['local_path']
     processed_path = "data/processed/processed.csv"
+    os.makedirs("data/processed", exist_ok=True)
     df = pd.read_csv(raw_path)
     
     drop_cols = config['preprocess'].get('drop_columns', [])

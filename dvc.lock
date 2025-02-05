@@ -1,0 +1,62 @@
+schema: '2.0'
+stages:
+  download_data:
+    cmd: python src/data/download.py --config params.yaml
+    deps:
+    - path: src/data/download.py
+      hash: md5
+      md5: ff696e751c1487bcbd4d772855f5aecd
+      size: 968
+    params:
+      params.yaml:
+        data.bucket: my-bucket
+        data.local_path: data/raw/train.csv
+        data.minio_endpoint: http://localhost:9000
+        data.object_key: train.csv
+    outs:
+    - path: data/raw/train.csv
+      hash: md5
+      md5: 2309cc5f04782ed9bb6016d9f4e381cf
+      size: 61194
+  preprocess_data:
+    cmd: python src/preprocess/preprocess.py --config params.yaml
+    deps:
+    - path: data/raw/train.csv
+      hash: md5
+      md5: 2309cc5f04782ed9bb6016d9f4e381cf
+      size: 61194
+    - path: src/preprocess/preprocess.py
+      hash: md5
+      md5: b080176e81a2e881c1bc0383a700c88e
+      size: 959
+    params:
+      params.yaml:
+        preprocess.drop_columns:
+        - PassengerId
+        - Name
+        - Ticket
+        - Cabin
+        preprocess.missing_values_strategy: mean
+    outs:
+    - path: data/processed/processed.csv
+      hash: md5
+      md5: a370ae8be6b0141c5f434115d2510f11
+      size: 34086
+  train_model:
+    cmd: python src/train/train_model.py --config params.yaml
+    deps:
+    - path: data/processed/processed.csv
+      hash: md5
+      md5: a370ae8be6b0141c5f434115d2510f11
+      size: 34086
+    - path: src/train/train_model.py
+      hash: md5
+      md5: 9180448648d8b3629288a28090a62b05
+      size: 2730
+    params:
+      params.yaml:
+        train.model_params:
+          n_estimators: 100
+          max_depth: 5
+        train.random_state: 43
+        train.test_size: 0.2
