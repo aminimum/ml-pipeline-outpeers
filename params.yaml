@@ -10,10 +10,10 @@ preprocess:
 
 train:
   test_size: 0.2
-  random_state: 43
+  random_state: 42
   model_params:
-    n_estimators: 100
-    max_depth: 7
+    n_estimators: 200
+    max_depth: 10
 
 mlflow:
   experiment_name: "Original_Titanic_Classification"
