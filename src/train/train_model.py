@@ -61,7 +61,7 @@ def train_model(config):
         plt.close()
 
         # Log ROC curve image in MLflow
-        # mlflow.log_artifact(roc_curve_path)
+        mlflow.log_artifact(roc_curve_path)
 
         # mlflow.log_params(model_params)
         # mlflow.log_param("test_size", test_size)
